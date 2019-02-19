@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-database.js"></script>
+    
+    <!-- 使用 vue-style-loader 提取成為style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+
+    </style>
+    <title>Top 100</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Top 100</h1>
+        <hr>
+        <my-app></my-app>
+    </div>
+    <!-- 虛擬路徑設定在webpack.config.js -->
+    <script type="text/javascript" src="/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="/bundle.js"></script>
+    <!-- <script src="http://localhost:8080/webpack-dev-server.js"></script> -->
+
+
+</body>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+//   var config = {
+//     apiKey: " AIzaSyAOxIC_0mS55dPs0kdS3pH3lX-VWbIylJg",
+//     authDomain: "petsapp-d236c.firebaseapp.com",
+//     databaseURL: "https://petsapp-d236c.firebaseio.com",
+//     projectId: "petsapp-d236c",
+//     storageBucket: "petsapp.appspot.com",
+//   };
+//   firebase.initializeApp(config);
+//   $(document).ready(function() {
+//     var ref = firebase.database().ref('/movies/')
+//     ref.once('value').then(function(snapshot){
+//         var val = snapshot.val();
+//         $.each(val, function(i, item) {
+//             console.log('each', i, item);
+//         });
+//     });
+//   });
+</script>
+
+</html>
